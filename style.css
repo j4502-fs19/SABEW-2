@@ -1,1 +1,54 @@
 /*this is our style sheet*/
+.header {
+  padding: 100px;
+  text-align: center;
+  background: #01163F;
+  color: white;
+  font-size: 30px;
+}
+
+h1 {
+  font-family:'Roboto', sans-serif;
+  color: white;
+  font-size: 1.5em;
+}
+
+h2{
+   font-family:  'Roboto', sans-serif;
+   color: #01163F;
+   text-align: center;
+   font-weight: bold;
+   background-color: white;
+}
+
+h3{
+  font-family:  'Roboto', sans-serif;
+  color: #01163F;
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+  color: #01163F
+}
+p {
+  font-family: 'georgia', serif;
+  background-color: white;
+  color: #01163F;
+}
+
+#photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  color: #01163F;
+}
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+}
