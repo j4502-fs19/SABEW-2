@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<div class="header">
+  <IMG SRC="logo.jpeg" ALT="Sabew logo" WIDTH=300 HEIGHT=150>
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#membership">Membership</a>
+      <a href="#reources">Resources</a>
+      <a href="#canada">Canada</a>
+      <a href="#donate">Donate</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+</div>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #01163F;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+
+<h2>Latest SABEW news</h2>
+
+<hr size="6" width="100%" align="left" color="#01163F">
+
+<h1> October </h1>
+<h1> September </h1>
+<li> <a href="https://sabew.org/2019/09/sabew-past-president-greg-mccune-retires-after-43-years/" target="_blank">SABEW past president Greg McCune retires after 43 years </a> </li>
+<li> <a href="https://sabew.org/2019/09/sabew-mourns-the-loss-of-paul-ingrassia/" target="_blank"> SABEW mourns the loss of Paul Ingrassia </a> </li>
+<li>  <a href="https://sabew.org/2019/09/the-informations-matt-drange-wins-sabews-birger-award-for-young-business-journalists/" target="_blank"> The Information’s Matt Drange Wins SABEW’s Birger Award for Young Business Journalists </a></li>
+<h1> August </h1>
+<li> <a href="https://sabew.org/2019/08/sabew-statement-on-the-role-of-the-financial-press/" target="_blank"> SABEW statement on the role of the financial press </a> </li>
+<li> <a href="https://sabew.org/2019/08/fellows-selected-for-2019-fred-advanced-data-immersion-workshop/" target="_blank"> Fellows selected for 2019 FRED Advanced Data Workshop </a> </li>
+<h1> July </h1>
+<h1> June </h1>
+<li> <a href="https://sabew.org/2019/06/sabew-calls-on-the-trump-administration-and-congress-to-commit-to-providing-adequate-funds-for-statistical-agencies/" target="_blank"> SABEW calls on the Trump administration and Congress to commit to providing adequate funds for statistical agencies </a> </li>
+<h1> May </h1>
+<li> <a href="https://sabew.org/2019/05/bryan-borzykowski-becomes-sabews-first-canadian-president-six-are-elected-to-the-board-of-governors/" target="_blank"> Bryan Borzykowski becomes SABEW’s first Canadian president </a> </li>
+<li> <a href="https://sabew.org/2019/05/six-elected-to-the-sabew-board-of-governors-at-sabew19/" target="_blank"> Six elected to the SABEW Board of Governors at SABEW19 </a> </li>
+<li> <a href="https://sabew.org/2019/05/sabew-welcomes-the-release-of-reuters-journalists-wa-lone-and-kyaw-soe-oo/" target="_blank"> SABEW welcomes the release of Reuters journalists Wa Lone and Kyaw Soe Oo </a> </li>
+<h1> April </h1>
+<li> <a href="https://sabew.org/2019/04/sabew-board-of-governors-elections-2019/" target="_blank"> SABEW Board of Governors Elections 2019 </a> </li>
+<h1> March </h1>
+<li> <a href="https://sabew.org/2019/03/as-we-observe-sunshine-week-sabew-expresses-outrage-over-the-arrest-of-a-ca-business-journalist-covering-a-protest/" target="_blank"> As we observe Sunshine Week, SABEW expresses outrage over the arrest of two SABEW members covering a CA protest </a> </li>
+<li> <a href="https://sabew.org/2019/03/sabew-celebrates-the-importance-of-the-first-amendment-and-press-freedom-as-sunshine-week-19-approaches/" target="_blank"> SABEW supports open government and Sunshine Week, March 10-16 </a> </li>
+<h1> February </h1>
+<li> <a href="https://sabew.org/2019/02/mourning-the-loss-of-sabew-board-member-sho-chandra/" target="_blank"> Mourning the loss of SABEW board member Sho Chandra </a> </li>
+<h1> January </h1>
+<li> <a href="https://sabew.org/2019/01/sabew-continues-to-urge-all-parties-to-end-the-government-shutdown-so-journalists-have-access-to-data/" target="_blank"> SABEW continues to urge all parties to end the government shutdown so journalists have access to data. </a> </li>
+<li> <a href="https://sabew.org/2019/01/sabew-urges-all-parties-to-end-the-government-shutdown/" target="_blank"> SABEW urges all parties to end the government shutdown so journalists have access to data </a> </li> 
