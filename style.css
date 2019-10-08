@@ -7,6 +7,12 @@
   font-size: 30px;
 }
 
+h1 {
+  font-family:'Manjari', sans-serif;
+  color: #01163F;
+  font-size: 1.5em;
+}
+
 h2{
    font-family:  'Manjari', sans-serif;
    color: #01163F;
@@ -19,6 +25,11 @@ h3{
   color: #01163F;
   text-align: center;
   font-weight: bold;
+}
+
+li {
+  font-family: 'Arial', sans-serif;
+  color: #01163F
 }
 
 .footer {
