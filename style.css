@@ -1,1 +1,28 @@
 /*this is our style sheet*/
+.header {
+  padding: 100px;
+  text-align: center;
+  background: #01163F;
+  color: white;
+  font-size: 30px;
+}
+
+h2{
+   font-family:  'Manjari', sans-serif;
+   color: #01163F;
+   text-align: center;
+   font-weight: bold;
+}
+
+h3{
+  font-family:  'Manjari', sans-serif;
+  color: #01163F;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+}

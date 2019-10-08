@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<div class="header">
+  <IMG SRC="logo.jpeg" ALT="Sabew logo" WIDTH=300 HEIGHT=150>
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#membership">Membership</a>
+      <a href="#reources">Resources</a>
+      <a href="#canada">Canada</a>
+      <a href="#donate">Donate</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+</div>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #01163F;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<p><img src="Sabewphoto.jpg" alt="Sabew event." width="1000px" /></p>
+<p class=“caption”>Sabew events can be find under "event" tab.</p>
+
+<hr size="6" width="100%" align="left" color="#01163F">
+
+<h2>Events</h2>
+<p>Events goes here</p>
+
+<hr size="6" width="100%" align="left" color="#01163F">
+
+<h3>Best in Business</h3>
+<p>Contents goes here</p>
+
+
+<div class="footer">
+  <h4>Footer</h4>
+</div>
+
+
+</html>
