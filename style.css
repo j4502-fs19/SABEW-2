@@ -47,9 +47,13 @@ p {
   color: #01163F;
 }
 
+.history{
+  max-width: 80%;
+  margin: 35px;
+
+}
 #photos {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: white;
@@ -59,7 +63,7 @@ p {
   padding: 10px;
   text-align: center;
   background: #ddd;
-  
+
 }
 
 .dropbtn {
@@ -105,3 +109,16 @@ p {
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+
+@media screen and (min-width: 599px){
+
+
+#photos{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 5px;
+}
+
+}
