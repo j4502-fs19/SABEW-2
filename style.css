@@ -108,7 +108,33 @@ p {
 
 .dropdown a:hover {background-color: #ddd;}
 
-.show {display: block;}
+.show {
+  display: block;
+}
+
+.brianphoto{
+  grid-area: a;
+}
+
+.brianinfo{
+  grid-area: b;
+}
+
+.quillenphoto{
+  grid-area: c;
+}
+
+.quilleninfo{
+  grid-area: d;
+}
+
+.calebphoto{
+  grid-area: e;
+}
+
+.calebinfo{
+  grid-area: f;
+}
 
 
 @media screen and (min-width: 599px){
@@ -121,4 +147,14 @@ p {
   margin: 5px;
 }
 
+
+@media screen and (min-width: 999px);{
+
+#photos{
+  width: 60%;
+  display: flex;
+
+}
+
+}
 }
