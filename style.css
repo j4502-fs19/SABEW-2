@@ -197,10 +197,8 @@ h1{
 
 .photos{
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 400px;
-  padding-left: 50px;
+  flex-flow: row;
+
 }
 
 }
