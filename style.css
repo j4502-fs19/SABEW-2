@@ -312,7 +312,30 @@ li {
 }
 
 
+.w3-container {
+  color: white;
+  padding: 40px;
+  font-size: 18px;
+  border: solid;
+  cursor: pointer;
+  font-family: 'helvetica';
+display: block;
+float: left;
 
+}
+
+.archive {
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+  border: solid;
+  cursor: pointer;
+  font-family: 'helvetica';
+display: block;
+float: right;
+background-color: lightgreen;
+align-items: center;
+}
 
 
 /**
