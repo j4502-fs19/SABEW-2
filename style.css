@@ -146,6 +146,10 @@ float:initial;
 
 }
 
+.figure{
+  text-decoration: none;
+}
+
 
 .main {
   margin-left: 200px;
