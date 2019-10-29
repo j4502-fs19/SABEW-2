@@ -134,29 +134,6 @@ margin: 35px;
   display: block;
 }
 
-.brianphoto{
-  grid-area: a;
-}
-
-.brianinfo{
-  grid-area: b;
-}
-
-.quillenphoto{
-  grid-area: c;
-}
-
-.quilleninfo{
-  grid-area: d;
-}
-
-.calebphoto{
-  grid-area: e;
-}
-
-.calebinfo{
-  grid-area: f;
-}
 
 .w3-container {
 color: white;
@@ -189,7 +166,7 @@ font-family: 'Roboto', sans-serif;
   align-items: center;
 }
 
-.IMG src {
+.img src {
   align-items: left;
   width: 100px;
 
@@ -197,7 +174,12 @@ font-family: 'Roboto', sans-serif;
 
 @media screen and (min-width: 999px);{
 
-
+.photos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+}
 
 }
 }
