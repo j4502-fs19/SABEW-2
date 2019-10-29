@@ -1,6 +1,6 @@
 /*this is our style sheet*/
 .header {
-  padding: 100px;
+  padding: 50px;
   text-align: center;
   background: #01163F;
   color: white;
@@ -11,6 +11,9 @@ h1{
   font-family:'Roboto', sans-serif;
   color: #01163F;
   font-size: 1.5em;
+  display: block;
+  background-color: lightgrey;
+  text-align: center;
 }
 
 h2{
@@ -19,6 +22,7 @@ h2{
    text-align: center;
    font-weight: bold;
    background-color: white;
+   display:block;
 }
 
 h3{
@@ -27,6 +31,7 @@ h3{
   text-align: center;
   font-weight: bold;
   background-color: white;
+  display: block;
 }
 
 h4{
@@ -35,24 +40,32 @@ h4{
   text-align: center;
   font-weight: bold;
   background-color: white;
+  display: block;
 }
 
 li {
-  font-family: 'Georgia', sans-serif;
+  font-family: 'helvetica', sans-serif;
   color: #01163F
+  list-style-type: none;
+
 }
 p {
-  font-family: 'georgia', serif;
-  background-color: white;
+  font-family: 'Helvetica', serif;
   color: #01163F;
+  display: block;
+}
+
+.IMG {
+  align-items: left;
 }
 
 .history{
   max-width: 80%;
   margin: 35px;
+  align-items: center;
 
 }
-#photos {
+.photos {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -65,6 +78,7 @@ p {
   background: #ddd;
 
 }
+
 
 .dropbtn {
   background-color: #01163F;
@@ -86,6 +100,12 @@ p {
   display: inline-block;
 }
 
+.article {
+display: block;
+background-color: lightgrey;
+padding: 30px;
+align-items: center;
+}
 .dropdown-content {
   display: none;
   position: absolute;
@@ -136,25 +156,45 @@ p {
   grid-area: f;
 }
 
+.w3-container {
+color: white;
+padding: 30px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+font-family: 'helvetica';
+
+}
+
+
+.main {
+  margin-left: 200px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 @media screen and (min-width: 599px){
 
 
-#photos{
+.photos{
   display: flex;
   flex-direction: row;
   padding: 20px;
   margin: 5px;
+  align-items: center;
 }
 
+.IMG {
+  align-items: left;
+  width: 50%;
+}
 
 @media screen and (min-width: 999px);{
 
-#photos{
-  width: 60%;
-  display: flex;
 
-}
 
 }
 }
