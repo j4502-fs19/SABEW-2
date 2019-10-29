@@ -200,6 +200,7 @@ h1{
   flex-direction: row;
   align-items: center;
   width: 400px;
+  padding-left: 50px;
 }
 
 }
