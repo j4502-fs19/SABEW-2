@@ -1,3 +1,4 @@
+
 /*this is our style sheet*/
 .header {
   padding: 50px;
@@ -105,6 +106,7 @@ display: block;
 background-color: lightgrey;
 padding: 30px;
 align-items: center;
+margin: 35px;
 }
 .dropdown-content {
   display: none;
@@ -187,9 +189,10 @@ font-family: 'helvetica';
   align-items: center;
 }
 
-.IMG {
+.IMG src {
   align-items: left;
-  width: 50%;
+  width: 100px;
+
 }
 
 @media screen and (min-width: 999px);{
