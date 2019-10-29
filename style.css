@@ -1,12 +1,11 @@
 
 /*this is our style sheet*/
 .header {
-  padding: 50px;
+  padding: 100px;
   text-align: center;
   background: #01163F;
   color: white;
   font-size: 30px;
-
 }
 
 h1{
@@ -146,10 +145,28 @@ float:initial;
 
 }
 
+nav ul li {
+    display: block;
+    border-top: none;
+}
+
 
 .main {
   margin-left: 200px;
 }
+
+
+@media screen and (min-width:300px){
+
+  .menu-trigger {
+      order: 1;
+      font-size: 1.75em;
+      width: 2em;
+  }
+
+  nav ul {
+      display: none;
+  }
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -215,6 +232,103 @@ h1{
   background: #ddd;
 
 }
+
+
+  @media screen and (min-width: 700px) {
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #0700FE;
+    }
+
+
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 2.0em
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color: #111;
+    }
+    h1 {
+  font-family:'Roboto', sans-serif;
+  color: white;
+  font-size: 1.5em;
+}
+
+h2{
+   font-family:  'Roboto', sans-serif;
+   color: #01163F;
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.5em;
+   background-color: white;
+}
+
+h3{
+  font-family:  'Roboto', sans-serif;
+  color: #01163F;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: white;
+}
+
+
+li {
+  font-family: 'Roboto', sans-serif;
+  color: #01163F
+}
+
+
+
+
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #5BC100;
+  text-align: center;
+}
+
 @media screen and (min-width: 999px);{
 
 .photos{
