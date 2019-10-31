@@ -83,6 +83,7 @@ p {
   padding: 10px;
   text-align: center;
   background: #ddd;
+  font-family: 'helvetica';
 
 }
 
@@ -183,10 +184,10 @@ float:initial;
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 50px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
-  border-radius: 60%;
+  border-radius: 50%;
 }
 
 .fa:hover {
