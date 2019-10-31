@@ -1,7 +1,7 @@
 
 /*this is our style sheet*/
 .header {
-  padding: 100px;
+  padding: 10px;
   text-align: center;
   background: #01163F;
   color: white;
@@ -43,11 +43,15 @@ h4{
   display: block;
 }
 
+nav ul{
+  background-color: #01163F;
+}
+
 li {
   font-family: 'Georgia', sans-serif;
-  color: #01163F
+  color: white;
   list-style-type: none;
-display: block;
+ display: block;
 }
 p {
   font-family: 'Georgia', serif;
@@ -82,7 +86,6 @@ p {
 
 .dropbtn {
   background-color: #01163F;
-  color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -91,13 +94,13 @@ p {
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #3e8e41;
+  background-color: #01163F;
 }
 
 .dropdown {
   float: right;
   position: relative;
-  display: inline-block;
+  display: block;
 }
 
 .article {
@@ -108,9 +111,9 @@ align-items: center;
 margin: 35px;
 }
 .dropdown-content {
-  display: none;
+  display: block;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: ##01163F;
   min-width: 160px;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -127,7 +130,7 @@ margin: 35px;
   font-size: 15px;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {background-color: ##01163F;}
 
 .show {
   display: block;
@@ -167,6 +170,7 @@ nav ul li {
   nav ul {
       display: none;
   }
+}
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -263,14 +267,14 @@ h1{
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #0700FE;
+      background-color: ##01163F;
     }
 
 
 
-    li a {
+    nav ul li a:link, nav ul li a:visited {
       display: block;
-      color: white;
+      background-color: #01163F;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
