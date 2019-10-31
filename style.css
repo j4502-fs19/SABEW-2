@@ -22,8 +22,6 @@ h2{
    color: #01163F;
    text-align: center;
    font-weight: bold;
-   background-color: white;
-   display:block;
 }
 
 h3{
@@ -46,6 +44,8 @@ h4{
 nav ul{
   background-color: #01163F;
   font-family: 'helvetica';
+  text-decoration: none;
+  color: white;
 }
 
 li {
@@ -87,19 +87,6 @@ p {
 }
 
 
-.dropbtn {
-  background-color: #01163F;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  font-family: 'roboto', sans-serif;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #01163F;
-}
-
 .dropdown {
   float: right;
   position: relative;
@@ -113,27 +100,10 @@ padding: 30px;
 align-items: center;
 margin: 35px;
 }
-.dropdown-content {
-  display: block;
-  position: absolute;
-  background-color: ;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  right: 0;
-  z-index: 1;
-}
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  font-family: 'roboto', sans-serif;
-  font-size: 15px;
-}
 
-.dropdown a:hover {background-color: ##01163F;}
+
+
 
 .show {
   display: block;
@@ -151,10 +121,7 @@ float:initial;
 
 }
 
-nav ul li {
-    display: block;
-    border-top: none;
-}
+
 
 
 .main {
@@ -218,7 +185,7 @@ float: left;
   font-family: 'helvetica';
 display: block;
 float: right;
-background-color: lightgreen;
+background-color: #ddd;
 align-items: center;
 }
 
@@ -227,7 +194,7 @@ h1{
   color: #01163F;
   font-size: 1.8em;
   display: inline-block;
-  background-color: white;
+  background-color: lightgrey;
   text-align: center;
 }
 
@@ -276,12 +243,13 @@ h1{
 
 
     nav ul li a:link, nav ul li a:visited {
-      display: block;
+      display: inline-block;
       background-color: #01163F;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-      font-size: 2.0em
+      font-size: 2.0em;
+      color: white;
     }
 
     /* Change the link color to #111 (black) on hover */
@@ -290,8 +258,10 @@ h1{
     }
     h1 {
   font-family:'Roboto', sans-serif;
-  color: white;
+  color: #01163F;
   font-size: 1.5em;
+  background-color: lightgrey;
+  display: block;
 }
 
 h2{
@@ -300,8 +270,7 @@ h2{
    text-align: center;
    font-weight: bold;
    font-size: 1.5em;
-   background-color: lightgrey;
-   display: block;
+
 }
 
 h3{
