@@ -125,6 +125,31 @@ margin: 35px;
   text-align: center;
 }
 
+.awards {
+  display: block;
+  padding: 10px;
+  align-items: center;
+  margin: 30px;
+  font-family: 'helvetica';
+  font-size: 1.3em;
+  background-color: white;
+  color: #01163F;
+  text-align: center;
+
+}
+
+.connect {
+  display: block;
+  padding: 10px;
+  align-items: center;
+  margin: 30px;
+  font-family: 'helvetica';
+  font-size: 1.3em;
+  background-color: white;
+  color: #01163F;
+  text-align: center;
+
+}
 
 .show {
   display: block;
