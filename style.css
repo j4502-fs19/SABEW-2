@@ -1,11 +1,11 @@
 
 /*this is our style sheet*/
 .header {
-  padding: 10px;
-  text-align: center;
+  padding: 5px;
+  text-align: left;
   background: #01163F;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 h1{
@@ -101,8 +101,29 @@ align-items: center;
 margin: 35px;
 }
 
+.intro {
+  display: block;
+  padding: 10px;
+  align-items: center;
+  margin: 30px;
+  font-family: 'helvetica';
+  font-size: 1.5em;
+  background-color: #99CCCC;
+  color: #01163F;
+  text-align: center;
+}
 
-
+.events {
+  display: block;
+  padding: 10px;
+  align-items: center;
+  margin: 30px;
+  font-family: 'helvetica';
+  font-size: 1.3em;
+  background-color: white;
+  color: #01163F;
+  text-align: center;
+}
 
 
 .show {
@@ -248,7 +269,7 @@ h1{
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-      font-size: 2.0em;
+      font-size: 1.5em;
       color: white;
     }
 
