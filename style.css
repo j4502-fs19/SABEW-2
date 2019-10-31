@@ -93,13 +93,6 @@ p {
 
 }
 
-
-.dropdown {
-  float: right;
-  position: relative;
-  display: block;
-}
-
 .article {
 display: block;
 background-color: lightgrey;
@@ -215,6 +208,18 @@ float:initial;
   margin-left: 200px;
 }
 
+.renew {
+  display: block;
+  padding: 10px;
+  align-items: center;
+  margin: 20px;
+  background-color: white;
+  color: #01163F;
+  text-align: left;
+
+}
+
+
 
 @media screen and (min-width:300px){
 
@@ -222,6 +227,11 @@ float:initial;
       order: 1;
       font-size: 1.75em;
       width: 2em;
+  }
+
+  .dropdown {
+    order: 1;
+    color: white;
   }
 
   nav ul {
@@ -400,7 +410,17 @@ align-items: center;
 text-align: center;
 }
 
-
+.intro {
+  display: block;
+  padding: 30px;
+  align-items: center;
+  margin: 50px;
+  font-family: 'helvetica';
+  font-size: 1.5em;
+  background-color: #99CCCC;
+  color: #01163F;
+  text-align: center;
+}
 /**
  * Footer Styles
  */
