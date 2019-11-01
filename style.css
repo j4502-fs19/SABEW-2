@@ -244,6 +244,20 @@ float:initial;
   background-color: green;
 }
 
+.mission {
+  display: block;
+  padding: 10px;
+  align-items: center;
+  margin: 30px;
+  font-family: 'helvetica';
+  font-size: 1.0em;
+  background-color: #E8E8E8;
+  color: #01163F;
+  text-align: center;
+
+
+}
+
 
 
 @media screen and (min-width:300px){
@@ -501,6 +515,20 @@ h6{
   text-align: center;
   display: flex;
   flex-flow: row;
+}
+
+.mission {
+  display: block;
+  padding: 20px;
+  align-items: center;
+  margin: 50px;
+  font-family: 'helvetica';
+  font-size: 1.0em;
+  background-color: #E8E8E8;
+  color: #01163F;
+  text-align: center;
+
+
 }
 
 @media screen and (min-width: 999px);{
