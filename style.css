@@ -21,7 +21,6 @@ h2{
    font-family:  'Roboto', sans-serif;
    color: #01163F;
    text-align: center;
-   font-weight: bold;
 }
 
 h3{
@@ -38,6 +37,16 @@ h4{
   text-align: center;
   font-weight: bold;
   display: block;
+}
+
+h6{
+  font-family:  'helvetica', sans-serif;
+  color: #01163F;
+  text-align: center;
+  font-size: 1em;
+  display: block;
+  background: white;
+  opacity: 0.5;
 }
 
 nav ul{
@@ -106,11 +115,13 @@ margin: 35px;
   padding: 10px;
   align-items: center;
   margin: 30px;
-  font-family: 'helvetica';
+  font-family: 'Roboto';
   font-size: 1.5em;
   background-color: #99CCCC;
   color: #01163F;
   text-align: center;
+  background-image: url("sabew stock1.jpeg");
+  background-size: cover;
 }
 
 .events {
@@ -255,7 +266,7 @@ float:initial;
   align-items: center;
 }
 
-.img src {
+.img {
   align-items: left;
   width: 100px;
 
@@ -303,6 +314,20 @@ h1{
   background: #ddd;
 
 }
+
+.awards {
+  display: block;
+  padding: 10px;
+  align-items: center;
+  margin: 30px;
+  font-family: 'helvetica';
+  font-size: 1.3em;
+  background-color: white;
+  color: #01163F;
+  text-align: center;
+
+}
+
 
 
   @media screen and (min-width: 700px) {
@@ -420,18 +445,34 @@ text-align: center;
   background-color: #99CCCC;
   color: #01163F;
   text-align: center;
+  background-size: cover;
 }
-/**
- * Footer Styles
- */
+
+h6{
+  font-family:  'helvetica', sans-serif;
+  color: #01163F;
+  text-align: center;
+  font-size: 1em;
+  display: block;
+  background: white;
+  opacity: 0.5;
+}
+
 
 .footer {
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #5BC100;
+  background-color: #ddd;
   text-align: center;
+}
+
+.logos {
+  width: 45%;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
 }
 
 @media screen and (min-width: 999px);{
