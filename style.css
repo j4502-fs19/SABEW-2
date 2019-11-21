@@ -104,11 +104,11 @@ p {
 }
 
 .article {
-display: block;
-background-color: lightgrey;
-padding: 30px;
-align-items: center;
-margin: 35px;
+  display: block;
+  background-color: lightgrey;
+  padding: 30px;
+  align-items: center;
+  margin: 35px;
 }
 
 .intro {
@@ -182,13 +182,13 @@ margin: 35px;
 
 
 .w3-container {
-color: white;
-padding: 30px;
-font-size: 16px;
-border: solid;
-cursor: pointer;
-font-family: 'Roboto', sans-serif;
-float:initial;
+  color: white;
+  padding: 30px;
+  font-size: 16px;
+  border: solid;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  float:initial;
 
 }
 
@@ -276,6 +276,15 @@ float:initial;
 
   nav ul {
       display: none;
+      width: 25%;
+  }
+
+  nav ul li a{
+    color:white;
+    display:block;
+    text-decoration: none;
+    padding: 20px 20px;
+    text-align: center;
   }
 }
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -287,53 +296,53 @@ float:initial;
 @media screen and (min-width: 599px){
 
 
-.photos{
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-  margin: 5px;
+  .photos{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 5px;
+    align-items: center;
+  }
+
+  .img {
+    align-items: left;
+    width: 100px;
+
+  }
+
+  .w3-container {
+    color: white;
+    padding: 40px;
+    font-size: 18px;
+    border: solid;
+    cursor: pointer;
+    font-family: 'helvetica';
+  display: block;
+  float: left;
+
+  }
+
+  .archive {
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    border: solid;
+    cursor: pointer;
+    font-family: 'helvetica';
+  display: block;
+  float: right;
+  background-color: #ddd;
   align-items: center;
-}
+  }
 
-.img {
-  align-items: left;
-  width: 100px;
-
-}
-
-.w3-container {
-  color: white;
-  padding: 40px;
-  font-size: 18px;
-  border: solid;
-  cursor: pointer;
-  font-family: 'helvetica';
-display: block;
-float: left;
-
-}
-
-.archive {
-  color: white;
-  padding: 20px;
-  font-size: 18px;
-  border: solid;
-  cursor: pointer;
-  font-family: 'helvetica';
-display: block;
-float: right;
-background-color: #ddd;
-align-items: center;
-}
-
-h1{
-  font-family:'Roboto', sans-serif;
-  color: #01163F;
-  font-size: 1.8em;
-  display: inline-block;
-  background-color: lightgrey;
-  text-align: center;
-}
+  h1{
+    font-family:'Roboto', sans-serif;
+    color: #01163F;
+    font-size: 1.8em;
+    display: inline-block;
+    background-color: lightgrey;
+    text-align: center;
+  }
 
 
 }
@@ -359,12 +368,13 @@ h1{
 
 
 
-  @media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) {
 
     nav ul {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        width: 100%;
     }
 
     nav ul li {
@@ -388,10 +398,8 @@ h1{
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: ##01163F;
+      background-color: #01163F;
     }
-
-
 
     nav ul li a:link, nav ul li a:visited {
       display: inline-block;
@@ -457,11 +465,11 @@ li {
   border: solid;
   cursor: pointer;
   font-family: 'helvetica';
-display: block;
-float: right;
-background-color: #99CCCC;
-align-items: center;
-text-align: center;
+  display: block;
+  float: right;
+  background-color: #99CCCC;
+  align-items: center;
+  text-align: center;
 }
 
 .intro {
@@ -534,12 +542,12 @@ h6{
 
 @media screen and (min-width: 999px);{
 
-.photos{
-  display: flex;
-  flex-flow: row;
-  text-decoration: none;
-  text-align: center;
-  align-items: center;
+  .photos{
+    display: flex;
+    flex-flow: row;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
 
-}
+  }
 }
