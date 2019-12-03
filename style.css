@@ -76,12 +76,13 @@ p {
 }
 
 .history{
-  align-items: center;
   display: block;
   padding: 10px;
   align-items: center;
   margin: 30px;
-  background-color: #99CCCC;
+  font-family: 'helvetica';
+  font-size: 1.0em;
+  background-color: #E8E8E8;
   color: #01163F;
   text-align: center;
 }
@@ -287,6 +288,15 @@ p {
     text-align: center;
   }
 }
+
+.explanation{
+  display:block;
+  background:white;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+
+}
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -446,6 +456,11 @@ li {
   color: #01163F
 }
 
+.explanation{
+  display:block;
+  background:white;
+
+}
 
 .w3-container {
   color: white;
@@ -530,16 +545,28 @@ h6{
 
 .mission {
   display: block;
-  padding: 10px;
+  padding: 20px;
   align-items: center;
-  margin: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
   font-family: 'helvetica';
   font-size: 1.0em;
   background-color: #E8E8E8;
   color: #01163F;
   text-align: center;
+}
 
-
+.history{
+  display: block;
+  padding: 10px;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: 'helvetica';
+  font-size: 1.0em;
+  background-color: #E8E8E8;
+  color: #01163F;
+  text-align: center;
 }
 
 @media screen and (min-width: 999px);{
