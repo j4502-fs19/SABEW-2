@@ -196,10 +196,10 @@ p {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 30px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
+  border-radius: 70%;
 }
 
 .fa:hover {
@@ -321,7 +321,7 @@ p {
   }
 
   .w3-container {
-    color: white;
+    color: lightgrey;
     padding: 40px;
     font-size: 18px;
     border: solid;
@@ -337,12 +337,15 @@ p {
     padding: 20px;
     font-size: 18px;
     border: solid;
+    border-color: #01163F;
+    border-width: thin;
     cursor: pointer;
     font-family: 'helvetica';
-  display: block;
-  float: right;
-  background-color: #ddd;
-  align-items: center;
+    display: block;
+    float: right;
+    background-color: lightgrey;
+    align-items: center;
+    text-align: center;
   }
 
   h1{
@@ -478,11 +481,13 @@ li {
   padding: 20px;
   font-size: 18px;
   border: solid;
+  border-color: #01163F;
+  border-width: thin;
   cursor: pointer;
   font-family: 'helvetica';
   display: block;
   float: right;
-  background-color: #99CCCC;
+  background-color: lightgrey;
   align-items: center;
   text-align: center;
 }
@@ -580,4 +585,20 @@ h6{
     justify-content: center;
 
   }
+}
+
+.archive {
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+  border: solid;
+  border-color: #01163F;
+  border-width: thin;
+  cursor: pointer;
+  font-family: 'helvetica';
+  display: block;
+  float: right;
+  background-color: lightgrey;
+  align-items: center;
+  text-align: center;
 }
