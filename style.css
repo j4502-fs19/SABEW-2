@@ -134,9 +134,11 @@ p {
   margin: 30px;
   font-family: 'helvetica';
   font-size: 1.3em;
-  background-color: white;
   color: #01163F;
   text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #E8E8E8;
 }
 
 .awards {
@@ -146,10 +148,11 @@ p {
   margin: 30px;
   font-family: 'helvetica';
   font-size: 1.3em;
-  background-color: white;
   color: #01163F;
   text-align: center;
-
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #E8E8E8;
 }
 
 .connect {
@@ -159,10 +162,11 @@ p {
   margin: 30px;
   font-family: 'helvetica';
   font-size: 1.3em;
-  background-color: white;
   color: #01163F;
   text-align: center;
-
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #E8E8E8;
 }
 
 .social {
