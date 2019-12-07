@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SABEW</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="tab.js" type="text/javascript"></script>
+  <!-- Add icon library -->
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="header">
+  <img SRC="newlogo.png" ALT="Sabew logo" WIDTH=150 HEIGHT=75>
+  </div>
+    <nav>
+      <a class="menu-trigger" href="#">&#9776;</a>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutindex.html">About</a></li>
+          <li><a href="BestInBusiness.html">Best In Business</a></li>
+          <li><a href="Membership.html">Membership</a></li>
+          <li><a href="news.html">News</a></li>
+      </ul>
+    </nav>
+   </div>
+
+<body>
+<h1>2017 Best in Business Honorees</h1>
+					<div class="" id="post-33010">
+									<p><h3>AUDIO – All news organizations</h3>
+<p><strong>Winner: </strong>Marketplace/The Uncertain Hour, for “How One Sentence Helped Set Off the Opioid Crisis”<br />
+Krissy Clark, Caitlin Esch, Nancy Farghalli, Maria Hollenhorst, Lyra Smith, Sitara Nieves, Deborah Clark, Donna Tam, Tony Wagner, Jake Gorski and Daniel Ramirez</p>
+<p><strong>Honorable mention: </strong>KUOW, for “Prime(d)”<br />
+Carol Smith, Joshua McNichols, Carolyn Adolph, Posey Gruener and Brendan Sweeney</p>
+<h3>BANKING/FINANCE – Large</h3>
+<p><strong>Winner: </strong>Financial Times, for articles on non-prime and predatory lending<br />
+Ben McLannahan</p>
+<p><strong>Honorable mention: </strong>Reuters, for “Crypto Casino”<br />
+Steve Stecklow, Alexandra Harney, Anna Irrera and Brenna Hughes Neghaiwi</p>
+<h3>BANKING/FINANCE – Medium</h3>
+<p><strong>Winner: </strong>ProPublica, co-published with Fortune, for “The Billion-Dollar Loophole”<br />
+Peter Elkind</p>
+<h3>BANKING/FINANCE – Small</h3>
+<p><strong>Winner: </strong>TheStreet, for “Big Bank Corporate Governance”<br />
+Brad Keoun</p>
+<p><strong>Honorable mention: </strong>American Banker, for <strong>“</strong>The CFPB leadership battle”<br />
+Kate Berry, Ian McKendry and Rob Blackwell</p>
+<h3>BREAKING NEWS – Large</h3>
+<p><strong>Winner: </strong>The Wall Street Journal, for “CVS-Aetna Deal”<br />
+Dana Mattioli, Sharon Terlep, Anna Wilde Mathews and Laura Stevens</p>
+<p><strong>Honorable mention: </strong>The New York Times<strong>, </strong>for Uber coverage<br />
+Mike Isaac and Farhad Manjoo</p>
+<h3>BREAKING NEWS – Medium</h3>
+<p><strong>Winner:</strong> The Seattle Times, for “Amazon HQ2 announcement”<br />
+Matt Day, Dominic Gates, Mike Rosenberg, Jon Talton, Scott Greenstone, Dan Beekman, Jessica Lee, Joseph O&#8217;Sullivan, Mark Nowlin and Kjell Redal</p>
+<h3>BREAKING NEWS – Small</h3>
+<p><strong>Winner: </strong>International Business Times, for “Last-Minute Tax Provisions Could Enrich Top Lawmakers”<br />
+David Sirota, Josh Keefe, Alex Kotch and Jay Cassano</p>
+<p><strong>Honorable mention: </strong>Puget Sound Business Journal, for “Port of Seattle CEO resigned amid probe into $4.7M payout”<br />
+Andrew McIntosh</p>
+<p><strong>Honorable mention:</strong> Crain&#8217;s Detroit Business, for “Amazon HQ2 bid revealed: tax breaks, $120 million talent program, transit vision”<br />
+Chad Livengood and Kirk Pinho</p>
+<h3>COMMENTARY/OPINION – Large</h3>
+<p><strong>Winner: </strong>The Wall Street Journal, for Keywords Technology Column<br />
+Christopher Mims</p>
+<p><strong>Honorable mention: </strong>The New York Times, for “Equifax Hack”<br />
+Ron Lieber</p>
+<h3>COMMENTARY/OPINION – Medium</h3>
+<p><strong>Winner: </strong>Minneapolis Star Tribune, for Lee Schafer’s columns</p>
+<p><strong>Honorable mention: </strong>Fortune, for “A Boom with a View”<br />
+Erin Griffith</p>
+<p><strong>Honorable mention:</strong> The Dallas Morning News, for “Texas business repels a bathroom bill”<br />
+Mitchell Schnurman</p>
+<h3>COMMENTARY/OPINION – Small</h3>
+<p><strong>Winner: </strong>Albany Business Review, for Mike Hendricks’ columns</p>
+<p><strong>Honorable mention: </strong>The Nation, for Helaine Olen’s columns</p>
+<h3>ECONOMICS – Large</h3>
+<p><strong>Winner: </strong>Los Angeles Times<strong>, </strong>for “Immigrant Farm Labor”<br />
+Geoffrey Mohan, Natalie Kitroeff and Ben Welsh</p>
+<h3>ECONOMICS – Medium</h3>
+<p><strong>Winner: </strong>POLITICO, for “Trump&#8217;s Trade Pullout Roils Rural America”<br />
+Adam Behsudi</p>
+<h3>ECONOMICS – Small</h3>
+<p><strong>Winner: </strong>Sarasota Herald-Tribune, for &#8220;Sarasota Drift&#8221;<br />
+Barbara Peters-Smith</p>
+<h3>ENERGY/NATURAL RESOURCES – Large</h3>
+<p><strong>Winner:</strong> Los Angeles Times, for “California&#8217;s Power Glut “<br />
+Ivan Penn, Ryan Menezes and Ben Welsh</p>
+<h3>ENERGY/NATURAL RESOURCES – Medium</h3>
+<p><strong>Winner: </strong>The Atlantic<strong>, </strong>for “The Problem with Rolling Back Regulations”<br />
+Alana Semuels</p>
+<p><strong>Honorable mention: </strong>Milwaukee Journal Sentinel, for &#8220;Oil and Water&#8221;<br />
+Dan Egan</p>
+<h3>ENERGY/NATURAL RESOURCES – Small</h3>
+<p><strong>Winner: </strong>Debtwire, for <strong>“</strong>American Idle: An Offshore Drilling Crisis “<br />
+Alex Plough</p>
+<h3>EXPLANATORY – Large</h3>
+<p><strong>Winner: </strong>Reuters<strong>, </strong>for “Shock Tactics”<br />
+Jason Szep, Peter Eisler, Tim Reid, Lisa Girion, Grant Smith, Linda So, M.B. Pell and Charles Levinson</p>
+<p><strong>Honorable mention: </strong>Los Angeles Times, for “Anaheim&#8217;s Subsidy Kingdom “<br />
+Daniel Miller, Priya Krishnakumar and Ben Poston</p>
+<p><strong>Honorable mention:</strong> The New York Times, for “Education Disrupted”<br />
+Natasha Singer</p>
+<h3>EXPLANATORY – Medium</h3>
+<p><strong>Winner: </strong>ProPublica, co-published with NPR<strong>, </strong>for “Sold for Parts”<br />
+Michael Grabell and Howard Berkes</p>
+<p><strong>Honorable mention: </strong>Miami Herald<strong>, </strong>for “Hotel housekeepers commute”<br />
+Chabeli Herrera and Carl Juste</p>
+<p><strong>Honorable mention:</strong> Detroit Free Press, “The Fault in No Fault”<br />
+JC Reindl</p>
+<p><strong>Honorable mention:</strong> Milwaukee Journal Sentinel, for “Oil and Water”<br />
+Dan Egan</p>
+<h3>EXPLANATORY – Small</h3>
+<p><strong>Winner: </strong>McClatchy’s Washington Bureau<strong>, “</strong>Trump&#8217;s footprint across ex-Soviet world”<br />
+David Goldstein, Ben Wieder, Kevin G. Hall, Gabriellle Paluch and Peter Stone</p>
+<p><strong>Honorable mention: </strong>The Center for Public Integrity, for <strong>“</strong>A Century of Domination: As America&#8217;s Carbon Wars Rage, Oil and Gas Industry Influence Grows”<br />
+Jie Jenny Zou, Michael J. Mishak, Jamie Smith Hopkins, Kristen Lombardi, Jim Morris, Chris Young, Sasha Khokha and Tom Dart</p>
+<p><strong>Honorable mention:</strong> InsideClimate News, for “Choke Hold: The Fossil Fuel Industry’s Fight Against Climate Policy, Science and Clean Energy”<br />
+Neela Banerjee, Robert McClure, Clark Hoyt, David Hasemyer, Marianne Lavelle, Robert McClure and Brad Wieners</p>
+<h3>FEATURE – Large</h3>
+<p><strong>Winner: </strong>Los Angeles Times, for “Immigrant Farm Labor”<br />
+Geoffrey Mohan, Natalie Kitroeff and Ben Welsh</p>
+<p><strong>Honorable mention: </strong>Los Angeles Times, for “Pink Boxes”<br />
+David Pierson</p>
+<h3>FEATURE – Medium</h3>
+<p><strong>Winner: </strong>Pittsburgh Post-Gazette<strong>, </strong>for “The Land Alcoa Dammed”<br />
+Rich Lord, Len Boselovic, Stephanie Strasburg, Zack Tanner, James Hilston and Ed Yozwick</p>
+<p><strong>Honorable mention: </strong>Portland Press Herald/Maine Sunday Telegram, for <strong>“</strong>Trapped by Heroin”<br />
+Penelope Overton, Dieter Bradbury, Gregory Rec and Brian Robitaille</p>
+<p><strong>Honorable mention</strong>: The Weather Channel Digital, for “United States of Climate Change”<br />
+Matt Hongoltz-Hetling, Michael G. Seamans, Kevin Hayes and Geoff Hansen</p>
+<h3>FEATURE – Small</h3>
+<p><strong>Winner: </strong>The Real Deal, for “Real Estate’s Diversity Problem”<br />
+Kathryn Brenzel, Rich Bockmann, Elizabeth Kim, Jill Noonan, Damian Ghigliotty and Yoryi De La Rosa</p>
+<p><strong>Honorable mention: </strong>Crain&#8217;s Chicago Business<strong>, </strong>for <strong>“</strong>Can jobs stop Chicago violence?”<br />
+Lisa Bertagnoli and Ann Dwyer</p>
+<p><strong>Honorable mention:</strong> Inc. Magazine, for “Meet the Woman Who Broke Silicon Valley&#8217;s Gender Barrier <em>— </em>and Built a $1.5 Billion Tech Company “<br />
+Maria Aspan and Danielle Sacks</p>
+<h3>GENERAL EXCELLENCE – Industry/topic-specific publications</h3>
+<p><strong>Winner:</strong> The Real Deal</p>
+<h3>GENERAL EXCELLENCE – Large</h3>
+<p><strong>Winner: </strong>The New York Times</p>
+<h3>GENERAL EXCELLENCE – Medium</h3>
+<p><strong>Winner: </strong>Milwaukee Journal Sentinel</p>
+<p><strong>Honorable mention: </strong>Houston Chronicle</p>
+<h3>GENERAL EXCELLENCE – Small</h3>
+<p><strong>Winner: </strong>STAT: Reporting from the frontiers of health and medicine</p>
+<p><strong>Honorable mention: </strong>Crain&#8217;s Detroit Business</p>
+<h3>GOVERNMENT – Large</h3>
+<p><strong>Winner: </strong>The Wall Street Journal, for “One Nation, Divisible”<br />
+Michael M. Phillips, Betsy McKay, Paul Overberg and Sarah Nassauer</p>
+<h3>GOVERNMENT – Medium</h3>
+<p><strong>Winner: </strong>Milwaukee Journal Sentinel, for “Burned”<br />
+Raquel Rutledge, Rick Barrett and John Diedrich</p>
+<p><strong>Honorable mention: </strong>Kansas City Star<strong>, </strong>for “Business and politics collide in Missouri”<br />
+Lindsay Wise and Steve Vockrodt</p>
+<h3>GOVERNMENT – Small</h3>
+<p><strong>Winner: </strong>InsideClimate News, for “Industry Lawsuits Try to Paint Environmental Activism as Illegal Racket”<br />
+Nicholas Kusnetz</p>
+<p><strong>Honorable mention: </strong>Financial Planning, for “Wells Fargo whistleblowers”<br />
+Ann Marsh, Marc Hochstein and Scott Wenger</p>
+<h3>HEALTH/SCIENCE – Large</h3>
+<p><strong>Winner:</strong> Reuters, for “The Body Trade”<br />
+Brian Grow, John Shiffman, Blake Morrison, Elizabeth Culliford, Reade Levinson, Nicholas Bogel-Burroughs and Zach Goelman</p>
+<h3>HEALTH/SCIENCE – Medium</h3>
+<p><strong>Winner: </strong>ProPublica, for “Wasted Medicine”<br />
+Marshall Allen</p>
+<p><strong>Honorable mention: </strong>The Center for Public Integrity and Reveal<strong>, </strong>for “The Invisible Hazard Afflicting Thousands of Schools”<br />
+Jamie Smith Hopkins, Chris Zubak-Skees, Eric Sagara, Fernanda Camarena, Amy Walters and Ike Sriskandarajah</p>
+<h3>HEALTH/SCIENCE – Small</h3>
+<p><strong>Winner: </strong>InsideClimate News<strong>, </strong>for “Choke Hold: The Fossil Fuel Industry’s Fight Against Climate Policy, Science and Clean Energy “<br />
+Neela Banerjee, Robert McClure, Clark Hoyt, David Hasemyer, Marianne Lavelle and Brad Wieners</p>
+<p><strong>Honorable mention: </strong>Kaiser Health News<strong>, </strong>for <strong>“</strong>Treating Cancer: Hope Vs. Hype”<br />
+Liz Szabo and John Hillkirk</p>
+<p><strong>Honorable mention:</strong> The Center for Public Integrity, for “Nuclear Negligence “<br />
+Patrick Malone, Peter Cary, R. Jeffrey Smith and Chris Zubak-Skees</p>
+<h3>INNOVATION – Large</h3>
+<p><strong>Winner: </strong>Los Angeles Times<strong>, </strong>for “Disneyland Wait Times”<br />
+Hugo Martin, Joe Fox, Priya Krishnakumar, John Schleuss and Ben Poston</p>
+<h3>INNOVATION – Medium</h3>
+<p><strong>Winner: </strong>GateHouse Media<strong>, </strong>for “In the Shadow of Wind Farms”<br />
+Emily Le Coz, Lucille Sherman, Mara Corbett and Tyson Bird</p>
+<h3>INNOVATION – Small</h3>
+<p><strong>Winner: </strong>Crain&#8217;s Chicago Business<strong>, </strong>for “The Rebuilders of Chicago&#8217;s Southland”<br />
+Jason McGregor, Thomas J. Linder and Ann Dwyer</p>
+<h3>INTERNATIONAL REPORTING – Large</h3>
+<p><strong>Winner: </strong>Associated Press<strong>, </strong>for “North Korea”<br />
+Eric Talmadge, Tim Sullivan, Hyung-jin Kim and Martha Mendoza</p>
+<p><strong>Honorable mention: </strong>Los Angeles Times, for Mexico&#8217;s Housing Crisis<br />
+Richard Marosi</p>
+<h3>INTERNATIONAL REPORTING – Small and Medium</h3>
+<p><strong>Winner: </strong>Fortune<strong>, </strong>for “Welcome to Tomorrow Land”<br />
+Vivienne Walt</p>
+<h3>INVESTIGATIVE REPORTING – Large</h3>
+<p><strong>Winner: </strong>The New York Times<strong>, </strong>for “Culture of Harassment “<br />
+Emily Steel, Michael S. Schmidt, Jodi Kantor, Megan Twohey, Susan Chira and Catrin Einhorn</p>
+<p><strong>Honorable mention: </strong>Los Angeles Times<strong>, </strong>for “California&#8217;s Power Glut”<br />
+Ivan Penn, Ryan Menezes and Ben Welsh</p>
+<h3>INVESTIGATIVE REPORTING – Medium</h3>
+<p><strong>Winner: </strong>ProPublica<strong>, </strong>for “Too Broke for Bankruptcy”<br />
+Paul Kiel and Hannah Fresques</p>
+<p><strong>Honorable mention: </strong>The Seattle Times<strong>, </strong>for &#8220;Quantity of Care&#8221;<br />
+Mike Baker and Justin Mayo</p>
+<p><strong>Honorable mention:</strong> The Boston Globe, for “FAA”<br />
+Jaimi Dowdell, Kelly Carr, Jenn Abelson, Todd Wallack, Jonathan Saltzman and Scott Allen</p>
+<p><strong>Honorable mention: </strong>The Des Moines Register<strong>, </strong>for “TPI Investigation”<br />
+Kevin Hardy and Grant Rodgers</p>
+<h3>INVESTIGATIVE REPORTING – Small</h3>
+<p><strong>Winner: </strong>Boston Business Journal<strong>, </strong>for “Promises, promises: Massachusetts companies are missing hiring goals even with hefty tax breaks”<br />
+Greg Ryan</p>
+<p><strong>Honorable mention:</strong> InsideClimate News, for “As Hilcorp Plans to Drill in Arctic Waters, a Troubling Trail of Violations Surfaces”<br />
+Sabrina Shankman</p>
+<p><strong>Honorable mention: </strong>Orlando Business Journal, for “The Amazon Effect”<br />
+Sarah Aslam, Veronica Brezina, Matthew Richardson and Craig Douglas</p>
+<h3>MARKETS – Large</h3>
+<p><strong>Winner: </strong>The Wall Street Journal, for “Market-Moving Leaks”<br />
+Mike Bird</p>
+<h3> MARKETS – Small and Medium</h3>
+<p><strong>Winner: </strong>Fortune<strong>, </strong>for “Whatever It Takes to Win”<br />
+Jen Wieczner</p>
+<h3>MEDIA/ENTERAINMENT – Large</h3>
+<p><strong>Winner: </strong>Los Angeles Times<strong>, </strong>for “Ratner-Simmons Sex Allegations “<br />
+Daniel Miller, Amy Kaufman and Victoria Kim</p>
+<h3>MEDIA/ENTERAINMENT – Medium</h3>
+<p><strong>Winner: </strong>CNNMoney<strong>, </strong>for <strong>“</strong>Five women accuse journalist and &#8216;Game Change&#8217; co-author Mark Halperin of sexual harassment “<br />
+Oliver Darcy</p>
+<h3>MEDIA/ENTERAINMENT – Small</h3>
+<p><strong>Winner: </strong>Portland Business Journal, for “Portland&#8217;s media mania”<br />
+Erik Siemers</p>
+<p><strong>Honorable mention: </strong>Investor&#8217;s Business Daily<strong>,</strong> for<strong> “</strong>Can E-sports&#8217; Armchair Gladiators Vanquish Hulking NFL Players?”<br />
+Patrick Seitz</p>
+<h3>PERSONAL FINANCE – Large</h3>
+<p><strong>Winner: </strong>The New York Times, for “Student Debt”<br />
+Stacy Cowley, Jessica Silver-Greenberg and Natalie Kitroeff</p>
+<h3>PERSONAL FINANCE – Medium</h3>
+<p><strong>Winner: </strong>The Chronicle of Higher Education<strong>, </strong>for<strong> “</strong>Welcome Students! Need a Checking Account?”<br />
+Dan Bauman</p>
+<h3>PERSONAL FINANCE – Small</h3>
+<p><strong>Winner: </strong>The Motley Fool, for Matthew Frankel’s columns</p>
+<p><strong>Honorable mention: </strong>Kiplinger’s Personal Finance<strong>, </strong>for “Money Help for Aging Parents”<br />
+Sandra Block, Mark Solheim and Eileen Ambrose</p>
+<h3>REAL ESTATE – Large</h3>
+<p><strong>Winner: </strong>Bloomberg News<strong>, </strong>for “Cashing In on Calamity”<br />
+Prashant Gopal</p>
+<h3>REAL ESTATE – Medium</h3>
+<p><strong>Winner: </strong>POLITICO<strong>, </strong>for “Puerto Rico seeks aid for tens of thousands of squatters”<br />
+Lorraine Woellert and M. Scott Mahaskey</p>
+<p><strong>Honorable mention:</strong> The Arizona Republic<strong>, </strong>for <strong>“</strong>HOA foreclosures”<br />
+Jessica Boehm and Catherine Reagor</p>
+<p><strong>Honorable mention:</strong> The Seattle Times, for Amazon coverage<br />
+Mike Rosenberg, Ángel González, Bettina Hansen, Mark Nowlin, Judy Averill, Kjell Redal, Thomas Wilburn and Alan Berner</p>
+<h3>REAL ESTATE – Small</h3>
+<p><strong>Winner: </strong>Puget Sound Business Journal, for Marc Stiles package of stories<br />
+Marc Stiles</p>
+<p><strong>Honorable mention: </strong>The News Tribune (Tacoma)<strong>, </strong>for <strong>“</strong>Fight for your country, lose the bidding war for a house”<br />
+Kate Martin</p>
+<h3>RETAIL – Large</h3>
+<p><strong>Winner: </strong>The Wall Street Journal, for “Retail in Crisis”<br />
+Suzanne Kapner, Valerie Bauerlein, Esther Fung and Yaryna Serkez</p>
+<p><strong>Honorable mention: </strong>Los Angeles Times<strong>, </strong>for <strong>‘</strong>Counterfeit Shoes”<br />
+David Pierson</p>
+<h3>RETAIL – Medium</h3>
+<p><strong>Winner: </strong>Report on Business Magazine<strong>, </strong>for <strong>“</strong>Inside the messy transformation of Tim Hortons”<br />
+Marina Strauss</p>
+<p><strong>Honorable mention: </strong>BusinessInsider.com, for<strong> “</strong>Defining the Retail Apocalypse”<br />
+Hayley Peterson</p>
+<h3>RETAIL – Small</h3>
+<p><strong>Winner: </strong>Racked, for “eBay is Playing Catch-Up “<br />
+Chavie Lieber, Christie Hemm Klok and Laura Bullard</p>
+<p><strong>Honorable mention: </strong>Capital &amp; Main<strong>, </strong>for a package of retail features<br />
+Jessica Goodheart</p>
+<h3>SMALL BUSINESS/MANAGEMENT/CAREER – Large</h3>
+<p><strong>Winner: </strong>The Wall Street Journal<strong>, </strong>for “Contracted”<br />
+Lauren Weber</p>
+<h3>SMALL BUSINESS/MANAGEMENT/CAREER – Medium</h3>
+<p><strong>Winner: </strong>Fortune<strong>, </strong>for <strong>“</strong>Can AT&amp;T Retrain 100,000 People? “<br />
+Aaron Pressman</p>
+<p><strong>Honorable mention: </strong>Minneapolis Star Tribune<strong>, </strong>for <strong>“</strong>Cost of affair, family rift measured in millions”<br />
+Jeffrey Meitrodt</p>
+<h3>SMALL BUSINESS/MANAGEMENT/CAREER – Small</h3>
+<p><strong>Winner: </strong>LinkedIn, for “Managing Business “<br />
+Chip Cutter</p>
+<p><strong>Honorable mention: </strong>Inc. Magazine<strong>, </strong>for <strong>“</strong>Main Street”<br />
+Leigh Buchanan</p>
+<h3>STUDENT JOURNALISM – Projects and collaborations</h3>
+<p><strong>Winner: </strong>The Walter Cronkite School of Journalism and Mass Communication at Arizona State University and The Arizona Republic<strong>, </strong>for “Arizona owners can lose homes over $50 in back taxes”<br />
+Emily Mahoney and Charles Clark</p>
+<h3>STUDENT JOURNALISM – Stories written for professional publications</h3>
+<p><strong>Winner: </strong>University of North Carolina and Triangle Business Journal<strong>, </strong>for <strong>“</strong>Losing the Fight to Debt”<br />
+Danielle Chemtob</p>
+<p><strong>Honorable mention: </strong>The Walter Cronkite School of Journalism and Mass Communication at Arizona State University and Arizona Center for Investigative Reporting<strong>, </strong>for “Profits of Policing”<br />
+Agnel Philip and Emily Mahoney</p>
+<h3>STUDENT JOURNALISM – Stories written for student publications</h3>
+<p><strong>Winner: </strong>Medill News Service<strong>, </strong>for “Opportunities open up for women truckers, but their numbers remain small”<br />
+Shen Lu</p>
+<h3>TECHNOLOGY – Large</h3>
+<p><strong>Winner: </strong>The New York Times, for “Inside Uber”<br />
+Mike Isaac</p>
+<p><strong>Honorable mention: </strong>Los Angeles Times<strong>, </strong>for <strong>“</strong>Snap IPO”<br />
+David Pierson, James Rufus Koren, Paresh Dave, Joe Fox and Ben Muessig</p>
+<h3>TECHNOLOGY – Medium</h3>
+<p><strong>Winner: </strong>ProPublica<strong>, </strong>for “Automating Hate”<br />
+Julia Angwin, Jeff Larson, Lauren Kirchner, Ariana Tobin, Madeleine Varner, Jennifer Valentino-DeVries, Rob Weychert, Noam Scheiber, Hannes Grassegger and Stefanie Dodt</p>
+<p><strong>Honorable mention: </strong>Fortune, for “Blockchain Mania!”<br />
+Robert Hackett and Jeff John Roberts</p>
+<h3>TECHNOLOGY – Small</h3>
+<p><strong>Winner: </strong>The Center for Public Integrity<strong>, </strong>for “Saving face: Facebook wants access without rules”<br />
+Jared Bennett and Allan Holmes</p>
+<p><strong>Honorable mention: </strong>Triangle Business Journal<strong>, “</strong>How an $850 million deal died for a Durham company”<br />
+Lauren Ohnesorge</p>
+<h3>TRAVEL/TRANSPORTATION – Large</h3>
+<p><strong>Winner: </strong>The Wall Street Journal<strong>, </strong>for<strong> “</strong>Self-Driving Cars”<br />
+Tim Higgins, Jack Nicas, Ianthe Jeanne Dugan and Mike Spector</p>
+<h3>TRAVEL/TRANSPORTATION – Medium</h3>
+<p><strong>Winner: </strong>Fortune<strong>, </strong>for “The Last Railroad Tycoon”<br />
+Shawn Tully</p>
+<p><strong>Honorable mention: </strong>Quartz, for <strong>“</strong>Uber&#8217;s New York subprime leasing program and the drivers it hurt”<br />
+Alison Griswold</p>
+<h3>TRAVEL/TRANSPORTATION – Small</h3>
+<p><strong>Winner: </strong>The Information<strong>, </strong>for<strong> “</strong>Uber&#8217;s Hell”<br />
+Amir Efrati</p>
+<p><strong>Honorable mention: </strong>Jacksonville Business Journal Reporter, for “Employed &amp; Homeless: As CSX changes plans, dispatchers left in limbo during holidays”<br />
+William Robinson</p>
+<h3>VIDEO – Large</h3>
+<p><strong>Winner: </strong>CNBC, for<strong> “</strong>Broken Bonds”<br />
+Leslie Picker, Scott Zamost, Dawn Giel, Chris Mulligan, Jackie Dessel, Alex Herrera, Leroy Jackson and Scott Matthews</p>
+<h3>VIDEO – Small and Medium</h3>
+<p><strong>Winner</strong>: Quartz in collaboration with Retro Report, for “What Happens Next”</p>
+			</li>
+      </body>
+    
