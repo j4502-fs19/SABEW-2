@@ -482,111 +482,6 @@ p {
   text-align: center;
 
 }
-.b1{
-  grid-area: a;
-}
-.b2{
-  grid-area: b;
-}
-.b3{
-  grid-area: c;
-}
-.b4{
-  grid-area: d;
-}
-
-.b5{
-  grid-area: e;
-}
-
-.b6{
-  grid-area: f;
-}
-
-.b7{
-  grid-area: g;
-}
-
-.b8{
-  grid-area: h;
-}
-
-.b9{
-  grid-area: i;
-}
-
-.b10{
-  grid-area: j;
-}
-
-.b11{
-  grid-area: k;
-}
-
-.b12{
-  grid-area: l;
-}
-.b13{
-  grid-area: m;
-}
-.b14{
-  grid-area: n;
-}
-.b15{
-  grid-area: o;
-}
-.b16{
-  grid-area: p;
-}
-.b17{
-  grid-area: q;
-}
-
-.b18{
-  grid-area: r;
-}
-.b19{
-  grid-area: s;
-}
-.b20{
-  grid-area: t;
-}
-.b21{
-  grid-area: u;
-}
-.b22{
-  grid-area: v;
-}
-.b23{
-  grid-area: w;
-}
-.b24{
-  grid-area: x;
-}
-.b25{
-  grid-area: y;
-  }
-}
-
-.board{
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  grid-template-areas:
-  "a b"
-  "c d"
-  "e f"
-  "g g"
-  "h i"
-  "j k"
-  "l m"
-  "n n"
-  "o p"
-  "q r"
-  "s t"
-  "u u"
-  "v w"
-  "x y";
-}
 
 
 @media screen and (min-width: 700px) {
@@ -781,6 +676,134 @@ h6{
   color: #01163F;
   text-align: center;
 }
+
+.b1{
+  grid-area: a;
+  text-align: center;
+}
+.b2{
+  grid-area: b;
+  text-align: center;
+}
+.b3{
+  grid-area: c;
+  text-align: center;
+}
+.b4{
+  grid-area: d;
+  text-align: center;
+}
+
+.b5{
+  grid-area: e;
+  text-align: center;
+}
+
+.b6{
+  grid-area: f;
+  text-align: center;
+}
+
+.b7{
+  grid-area: g;
+  text-align: center;
+}
+
+.b8{
+  grid-area: h;
+  text-align: center;
+}
+
+.b9{
+  grid-area: i;
+  text-align: center;
+}
+
+.b10{
+  grid-area: j;
+  text-align: center;
+}
+
+.b11{
+  grid-area: k;
+  text-align: center;
+}
+
+.b12{
+  grid-area: l;
+  text-align: center;
+}
+.b13{
+  grid-area: m;
+  text-align: center;
+}
+.b14{
+  grid-area: n;
+  text-align: center;
+}
+.b15{
+  grid-area: o;
+  text-align: center;
+}
+.b16{
+  grid-area: p;
+  text-align: center;
+}
+.b17{
+  grid-area: q;
+  text-align: center;
+}
+
+.b18{
+  grid-area: r;
+  text-align: center;
+}
+.b19{
+  grid-area: s;
+  text-align: center;
+}
+.b20{
+  grid-area: t;
+  text-align: center;
+}
+.b21{
+  grid-area: u;
+  text-align: center;
+}
+.b22{
+  grid-area: v;
+  text-align: center;
+}
+.b23{
+  grid-area: w;
+  text-align: center;
+}
+.b24{
+  grid-area: x;
+  text-align: center;
+}
+.b25{
+  grid-area: y;
+  text-align: center;
+  }
+}
+
+.boardphotos{
+margin: 40px;
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr;
+  grid-template-areas:
+  "a b c"
+  "d e f"
+  "g g g"
+  "h i j"
+  "k l m"
+  "n n n"
+  "o p q"
+  "r s t"
+  "u u u"
+  "v w x"
+  "y . .";
 
 @media screen and (min-width: 999px);{
 
