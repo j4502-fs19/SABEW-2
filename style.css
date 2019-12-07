@@ -41,7 +41,7 @@ h4{
 }
 
 h6{
-  font-family:  'helvetica', sans-serif;
+  font-family:  'roboto', sans-serif;
   color: #01163F;
   text-align: center;
   font-size: 1em;
@@ -52,13 +52,13 @@ h6{
 
 nav ul{
   background-color: #01163F;
-  font-family: 'helvetica';
+  font-family: 'roboto'sans-serif;
   text-decoration: none;
   color: white;
 }
 
 li {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #01163F;
   list-style-type: none;
   display: block;
@@ -81,7 +81,7 @@ p {
   padding: 10px;
   align-items: center;
   margin: 30px;
-  font-family: 'helvetica';
+  font-family: 'roboto'sans-serif;
   font-size: 1.0em;
   background-color: #E8E8E8;
   color: #01163F;
@@ -101,7 +101,7 @@ p {
   padding: 10px;
   text-align: center;
   background: #ddd;
-  font-family: 'helvetica';
+  font-family: 'roboto';
 
 }
 
@@ -118,7 +118,7 @@ p {
   padding: 10px;
   align-items: center;
   margin: 30px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   background-color: #99CCCC;
   color: #01163F;
@@ -132,7 +132,7 @@ p {
   padding: 10px;
   align-items: center;
   margin: 30px;
-  font-family: 'helvetica';
+  font-family: 'roboto', sans-serif;
   font-size: 1.3em;
   color: #01163F;
   text-align: center;
@@ -359,7 +359,12 @@ p {
 
 }
 
-
+.board{
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
 @media screen and (min-width:300px){
 
@@ -477,7 +482,111 @@ p {
   text-align: center;
 
 }
+.b1{
+  grid-area: a;
+}
+.b2{
+  grid-area: b;
+}
+.b3{
+  grid-area: c;
+}
+.b4{
+  grid-area: d;
+}
 
+.b5{
+  grid-area: e;
+}
+
+.b6{
+  grid-area: f;
+}
+
+.b7{
+  grid-area: g;
+}
+
+.b8{
+  grid-area: h;
+}
+
+.b9{
+  grid-area: i;
+}
+
+.b10{
+  grid-area: j;
+}
+
+.b11{
+  grid-area: k;
+}
+
+.b12{
+  grid-area: l;
+}
+.b13{
+  grid-area: m;
+}
+.b14{
+  grid-area: n;
+}
+.b15{
+  grid-area: o;
+}
+.b16{
+  grid-area: p;
+}
+.b17{
+  grid-area: q;
+}
+
+.b18{
+  grid-area: r;
+}
+.b19{
+  grid-area: s;
+}
+.b20{
+  grid-area: t;
+}
+.b21{
+  grid-area: u;
+}
+.b22{
+  grid-area: v;
+}
+.b23{
+  grid-area: w;
+}
+.b24{
+  grid-area: x;
+}
+.b25{
+  grid-area: y;
+  }
+}
+
+.board{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-areas:
+  "a b"
+  "c d"
+  "e f"
+  "g g"
+  "h i"
+  "j k"
+  "l m"
+  "n n"
+  "o p"
+  "q r"
+  "s t"
+  "u u"
+  "v w"
+  "x y";
+}
 
 
 @media screen and (min-width: 700px) {
