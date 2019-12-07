@@ -189,7 +189,8 @@ p {
   border: solid;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
-  float:initial;
+  float:left;
+
 
 }
 
@@ -320,32 +321,23 @@ p {
 
   }
 
-  .w3-container {
-    color: lightgrey;
-    padding: 40px;
-    font-size: 18px;
-    border: solid;
-    cursor: pointer;
-    font-family: 'helvetica';
-  display: block;
-  float: left;
-
-  }
+  
 
   .archive {
     color: white;
-    padding: 20px;
+    padding: 30px;
     font-size: 18px;
     border: solid;
     border-color: #01163F;
     border-width: thin;
     cursor: pointer;
     font-family: 'helvetica';
-    display: block;
     float: right;
     background-color: lightgrey;
     align-items: center;
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   h1{
@@ -465,28 +457,17 @@ li {
 
 }
 
-.w3-container {
-  color: white;
-  padding: 40px;
-  font-size: 18px;
-  border: solid;
-  cursor: pointer;
-  font-family: 'helvetica';
-  text-align: left;
-
-}
 
 .archive {
   color: white;
-  padding: 20px;
+  padding: 10px;
   font-size: 18px;
   border: solid;
   border-color: #01163F;
   border-width: thin;
   cursor: pointer;
   font-family: 'helvetica';
-  display: block;
-  float: right;
+  float: left;
   background-color: lightgrey;
   align-items: center;
   text-align: center;
@@ -574,7 +555,7 @@ h6{
   text-align: center;
 }
 
-@media screen and (min-width: 999px);{
+@media screen and (min-width: 50px);{
 
   .photos{
     display: flex;
@@ -589,16 +570,28 @@ h6{
 
 .archive {
   color: white;
-  padding: 20px;
+  padding: 10px;
   font-size: 18px;
   border: solid;
   border-color: #01163F;
   border-width: thin;
   cursor: pointer;
   font-family: 'helvetica';
-  display: block;
-  float: right;
+  float: left;
   background-color: lightgrey;
   align-items: center;
   text-align: center;
+  margin-left: 50px;
+}
+
+.w3-container {
+  color: white;
+  padding: 40px;
+  font-size: 18px;
+  border: solid;
+  cursor: pointer;
+  font-family: 'helvetica';
+  text-align: left;
+  float:left;
+
 }
