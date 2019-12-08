@@ -101,7 +101,7 @@ p {
   padding: 10px;
   text-align: center;
   background: #ddd;
-  font-family: 'roboto';
+  font-family: 'roboto'sans-serif;
 
 }
 
@@ -350,7 +350,7 @@ p {
   padding: 10px;
   align-items: center;
   margin: 30px;
-  font-family: 'helvetica';
+  font-family: 'roboto'sans-serif;
   font-size: 1.3em;
   color: #01163F;
   text-align: center;
@@ -364,7 +364,7 @@ p {
   padding: 10px;
   align-items: center;
   margin: 30px;
-  font-family: 'helvetica';
+  font-family: 'roboto'sans-serif;
   font-size: 1.3em;
   color: #01163F;
   text-align: center;
@@ -378,7 +378,7 @@ p {
   padding: 10px;
   align-items: center;
   margin: 30px;
-  font-family: 'helvetica';
+  font-family: 'roboto'sans-serif;
   font-size: 1.3em;
   background-color: white;
   color: #01163F;
@@ -406,7 +406,6 @@ p {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 20px;
   text-align: center;
   text-decoration: none;
   border-radius: 70%;
@@ -461,7 +460,7 @@ p {
   padding: 10px;
   align-items: center;
   margin: 30px;
-  font-family: 'helvetica';
+  font-family: 'roboto' sans-serif;
   font-size: 1.0em;
   background-color: #E8E8E8;
   color: #01163F;
@@ -535,7 +534,7 @@ p {
 
   }
 
-  
+
 
   .archive {
     color: white;
@@ -545,7 +544,7 @@ p {
     border-color: #01163F;
     border-width: thin;
     cursor: pointer;
-    font-family: 'helvetica';
+    font-family: 'roboto'sans-serif;
     float: right;
     background-color: lightgrey;
     align-items: center;
@@ -595,7 +594,7 @@ p {
   padding: 10px;
   align-items: center;
   margin: 30px;
-  font-family: 'helvetica';
+  font-family: 'roboto'sans-serif;
   font-size: 1.3em;
   background-color: white;
   color: #01163F;
@@ -697,7 +696,7 @@ li {
   border-color: #01163F;
   border-width: thin;
   cursor: pointer;
-  font-family: 'helvetica';
+  font-family: 'roboto' sans-serif;
   float: left;
   background-color: lightgrey;
   align-items: center;
@@ -709,7 +708,7 @@ li {
   padding: 30px;
   align-items: center;
   margin: 50px;
-  font-family: 'helvetica';
+  font-family: 'roboto' sans-serif;
   font-size: 1.5em;
   background-color: #99CCCC;
   color: #01163F;
@@ -719,7 +718,7 @@ li {
 }
 
 h6{
-  font-family:  'helvetica', sans-serif;
+  font-family:  'roboto', sans-serif;
   color: #01163F;
   text-align: center;
   font-size: 1em;
@@ -766,7 +765,7 @@ h6{
   align-items: center;
   margin-left: 200px;
   margin-right: 200px;
-  font-family: 'helvetica';
+  font-family: 'roboto' sans-serif;
   font-size: 1.0em;
   background-color: #E8E8E8;
   color: #01163F;
@@ -779,7 +778,7 @@ h6{
   align-items: center;
   margin-left: 40px;
   margin-right: 40px;
-  font-family: 'helvetica';
+  font-family: 'roboto' sans-serif;
   font-size: 1.0em;
   background-color: #E8E8E8;
   color: #01163F;
@@ -812,7 +811,7 @@ h6{
 }
 
 @media screen and (min-width: 999px);{
->>>>>>> 0c77200f1256517fb33e3146826c893b03b76666
+> 0c77200f1256517fb33e3146826c893b03b76666
 
   .photos{
     display: flex;
@@ -833,7 +832,7 @@ h6{
   border-color: #01163F;
   border-width: thin;
   cursor: pointer;
-  font-family: 'helvetica';
+  font-family: 'roboto' sans-serif;
   float: left;
   background-color: lightgrey;
   align-items: center;
@@ -847,10 +846,10 @@ h6{
   font-size: 18px;
   border: solid;
   cursor: pointer;
-  font-family: 'helvetica';
+  font-family: 'roboto'sans-serif;
   text-align: left;
   float:left;
-
+}
 }
 .boardphotos{
   margin: 40px;
@@ -867,4 +866,4 @@ h6{
   "r s t"
   "u u u"
   "v w x"
-  "y . .";
+  ". y .";
