@@ -401,6 +401,7 @@ p {
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   float:left;
+  clear:
 
 
 }
@@ -592,6 +593,12 @@ p {
   padding: 10px;
   text-align: center;
   background: #ddd;
+  position:relative;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+
 
 }
 
