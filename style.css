@@ -1,5 +1,7 @@
 
 /*this is our style sheet*/
+
+
 .header {
   padding: 5px;
   text-align: left;
@@ -752,6 +754,7 @@ h6{
   padding: 1rem;
   background-color: #ddd;
   text-align: center;
+
 }
 
 .logos {
