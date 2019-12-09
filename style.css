@@ -349,7 +349,10 @@ p {
   from {opacity: .4}
   to {opacity: 1}
 }
-
+.ccimg{
+  align-items: center;
+  max-width: 80%;
+}
 .awards {
   display: block;
   padding: 10px;
