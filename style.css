@@ -928,8 +928,7 @@ h6{
 }
 
 
-@media screen and (min-width:1200px)
-{
+@media screen and (min-width:1200px){
   .boardphotos{
     margin: 40px;
     display: grid;
