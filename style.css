@@ -381,7 +381,6 @@ p {
 .social {
   display: block;
   padding: 10px;
-  align-items: center;
   margin: 30px;
   font-family: 'roboto' sans-serif;
   font-size: 1.3em;
@@ -403,10 +402,6 @@ p {
   border: solid;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
-  float:left;
-  clear:
-
-
 }
 
 .fa {
@@ -575,8 +570,7 @@ p {
     border-color: #01163F;
     border-width: thin;
     cursor: pointer;
-    font-family: 'roboto'sans-serif;
-    float: right;
+    font-family: 'roboto' sans-serif;
     background-color: lightgrey;
     align-items: center;
     text-align: center;
@@ -614,14 +608,12 @@ p {
 }
 }
 .footer {
-  padding: 10px;
-  text-align: center;
-  background: #ddd;
-  position:relative;
-   left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
+  background-color: lightgrey;
+     padding-top: 10px;
+     padding-bottom: 0px;
+     position:fixed;
+     bottom:0;
+     width:100%;
 
 
 }
@@ -908,23 +900,6 @@ h6{
   font-family: 'roboto'sans-serif;
   text-align: left;
   float:left;
-}
-.boardphotos{
-  margin: 40px;
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-areas:
-  "a b c"
-  "d e f"
-  "g g g"
-  "h i j"
-  "k l m"
-  "n n n"
-  "o p q"
-  "r s t"
-  "u u u"
-  "v w x"
-  ". y .";
 }
 
 
