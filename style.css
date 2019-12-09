@@ -611,7 +611,7 @@ p {
     "u u"
     "v w"
     "x y";
-
+}
 }
 .footer {
   padding: 10px;
@@ -731,7 +731,26 @@ li {
 
 }
 
-
+.boardphotos{
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-areas:
+  "a b"
+  "c d"
+  "e f"
+  "g g"
+  "h i"
+  "j k"
+  "l m"
+  "n n"
+  "o p"
+  "q r"
+  "s t"
+  "u u"
+  "v w"
+  "x y";
+}
 .archive {
   color: white;
   padding: 10px;
@@ -829,29 +848,28 @@ h6{
   color: #01163F;
   text-align: center;
 }
-
-.boardphotos{
-  margin: 40px;
-  display: grid;
-  grid-template-columns: 300px 300px;
-  grid-template-areas:
-  "a b"
-  "c d"
-  "e f"
-  "g g"
-  "h i"
-  "j k"
-  "l m"
-  "n n"
-  "o p"
-  "q r"
-  "s t"
-  "u u"
-  "v w"
-  "x y";
-
 }
 
+@media screen and (min-width:850px){
+  .boardphotos{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 283px 283px 283px;
+    grid-template-areas:
+    "a b c"
+    "d e f"
+    "g g g"
+    "h i j"
+    "k l m"
+    "n n n"
+    "o p q"
+    "r s t"
+    "u u u"
+    "v w x"
+    ". y .";
+  }
+
+}
 @media screen and (min-width: 999px){
 
   .photos{
@@ -891,11 +909,10 @@ h6{
   text-align: left;
   float:left;
 }
-}
 .boardphotos{
   margin: 40px;
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 300px 300px 300px;
   grid-template-areas:
   "a b c"
   "d e f"
@@ -908,3 +925,25 @@ h6{
   "u u u"
   "v w x"
   ". y .";
+}
+
+
+@media screen and (min-width:1200px){
+  .boardphotos{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-areas:
+    "a b c"
+    "d e f"
+    "g g g"
+    "h i j"
+    "k l m"
+    "n n n"
+    "o p q"
+    "r s t"
+    "u u u"
+    "v w x"
+    ". y .";
+}
+}
