@@ -909,23 +909,6 @@ h6{
   text-align: left;
   float:left;
 }
-.boardphotos{
-  margin: 40px;
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-areas:
-  "a b c"
-  "d e f"
-  "g g g"
-  "h i j"
-  "k l m"
-  "n n n"
-  "o p q"
-  "r s t"
-  "u u u"
-  "v w x"
-  ". y .";
-}
 
 
 @media screen and (min-width:1200px){
