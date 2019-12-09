@@ -486,6 +486,25 @@ p {
   text-align: center;
 }
 
+
+.ccexp{
+  text-align: center;
+
+}
+.ccexp{
+  padding: 30px;
+}
+.blog{
+    display: block;
+    padding: 10px;
+    align-items: center;
+    margin: 30px;
+    font-family: 'roboto' sans-serif;
+    font-size: 1.0em;
+    background-color: #E8E8E8;
+    color: #01163F;
+    text-align: center;
+}
 @media screen and (min-width:300px){
 
   .menu-trigger {
@@ -544,7 +563,9 @@ p {
 
   }
 
-
+  .ccexp{
+    padding: 0px;
+  }
 
   .archive {
     color: white;
@@ -605,6 +626,13 @@ p {
 
 }
 
+.blog{
+  margin: 60px;
+}
+
+.ccexp{
+  margin: 60px;
+}
 .awards {
   display: block;
   padding: 10px;
@@ -768,7 +796,7 @@ h6{
 }
 
 .logos {
-  width: 45%;
+  width: 75%;
   text-align: center;
   display: flex;
   align-items: flex-end;
