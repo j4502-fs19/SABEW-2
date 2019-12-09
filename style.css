@@ -623,6 +623,9 @@ line-height: 1.3em;
     "x y";
 }
 }
+.post{
+  padding: 10px;
+}
 .footer {
   background-color: lightgrey;
      padding-top: 10px;
