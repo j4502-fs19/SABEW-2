@@ -503,6 +503,19 @@ p {
     color: #01163F;
     text-align: center;
 }
+
+.blogpost{
+  display: block;
+  padding: 10px;
+  align-items: center;
+  margin: 5%;
+  font-family: 'roboto' sans-serif;
+  font-size: 1.0em;
+  background-color: #E8E8E8;
+  color: #01163F;
+  text-align: left;
+line-height: 1.3em;
+}
 @media screen and (min-width:300px){
 
   .menu-trigger {
@@ -725,7 +738,9 @@ li {
   background:white;
 
 }
-
+.blogpost{
+  margin: 8%;
+}
 .boardphotos{
   margin: 40px;
   display: grid;
