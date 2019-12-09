@@ -350,8 +350,8 @@ p {
   to {opacity: 1}
 }
 .ccimg{
-  align-items: center;
-  max-width: 80%;
+  max-width: 100%;
+  text-align: center;
 }
 .awards {
   display: block;
