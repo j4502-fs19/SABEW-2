@@ -15,8 +15,8 @@ h1{
   font-family:'Roboto', sans-serif;
   color: #01163F;
   font-size: 1.5em;
+  background-color: lightgrey;
   display: block;
-  background-color: #01163F;
   text-align: center;
 }
 
@@ -101,7 +101,7 @@ p {
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   padding: 10px;
@@ -581,9 +581,9 @@ p {
   h1{
     font-family:'Roboto', sans-serif;
     color: #01163F;
-    font-size: 1.8em;
-    display: inline-block;
+    font-size: 1.5em;
     background-color: lightgrey;
+    display: block;
     text-align: center;
   }
   .boardphotos{
@@ -611,7 +611,7 @@ p {
   background-color: lightgrey;
      padding-top: 10px;
      padding-bottom: 0px;
-     position:fixed;
+     position:relative;
      bottom:0;
      width:100%;
 
@@ -687,11 +687,12 @@ p {
       background-color: #111;
     }
     h1 {
-  font-family:'Roboto', sans-serif;
-  color: #01163F;
-  font-size: 1.5em;
-  background-color: lightgrey;
-  display: block;
+      font-family:'Roboto', sans-serif;
+      color: #01163F;
+      font-size: 1.5em;
+      background-color: lightgrey;
+      display: block;
+      text-align: center;
 }
 
 h2{
