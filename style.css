@@ -415,8 +415,8 @@ p {
     font-size: 1.3em;
     color: #01163F;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
     background-color: #E8E8E8;
   }
 }
@@ -909,6 +909,10 @@ h6{
     "u u u"
     "v w x"
     ". y .";
+  }
+  .honorees{
+  margin-left: 200px;
+  margin-right: 200px;  
   }
 
 }
