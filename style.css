@@ -403,6 +403,23 @@ p {
   display: block;
 }
 
+.bibexp{
+  text-align: center;
+}
+.honorees{
+    display: block;
+    padding: 10px;
+    margin: 30px;
+    align-items: center;
+    font-family: 'roboto'sans-serif;
+    font-size: 1.3em;
+    color: #01163F;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #E8E8E8;
+  }
+}
 
 .w3-container {
   color: white;
