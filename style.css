@@ -132,6 +132,12 @@ p {
   background-size: cover;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .events {
   display: block;
   padding: 10px;
@@ -397,6 +403,23 @@ p {
   display: block;
 }
 
+.bibexp{
+  text-align: center;
+}
+.honorees{
+    display: block;
+    padding: 10px;
+    margin: 30px;
+    align-items: center;
+    font-family: 'roboto'sans-serif;
+    font-size: 1.3em;
+    color: #01163F;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #E8E8E8;
+  }
+}
 
 .w3-container {
   color: white;
@@ -487,11 +510,12 @@ p {
 
 .ccexp{
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 60px;
+  margin-right: 60px;
+}
 
-}
-.ccexp{
-  padding: 30px;
-}
 .blog{
     display: block;
     padding: 10px;
@@ -552,10 +576,6 @@ line-height: 1.3em;
 
 }
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 
 @media screen and (min-width: 599px){
 
@@ -575,7 +595,11 @@ line-height: 1.3em;
   }
 
   .ccexp{
-    padding: 0px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 
   .archive {
@@ -642,7 +666,11 @@ line-height: 1.3em;
 }
 
 .ccexp{
-  margin: 60px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 .awards {
   display: block;
@@ -669,6 +697,7 @@ line-height: 1.3em;
 
     nav ul li {
         border-top: none;
+        display: inline-block;
     }
 
     .menu-trigger {
@@ -685,9 +714,8 @@ line-height: 1.3em;
 
     ul {
       list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
+      margin: auto;
+      padding: inherit;
       background-color: #01163F;
     }
 
@@ -695,9 +723,8 @@ line-height: 1.3em;
       display: inline-block;
       background-color: #01163F;
       text-align: center;
-      padding: 14px 16px;
       text-decoration: none;
-      font-size: 1.0em;
+      font-size: 1em;
       color: white;
     }
 
@@ -778,6 +805,7 @@ li {
   background-color: lightgrey;
   align-items: center;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .intro {
