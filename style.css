@@ -972,3 +972,39 @@ h6{
     ". y .";
 }
 }
+
+.bibparagraph{
+  display: block;
+  padding: 10px;
+  align-items: center;
+  margin: 30px;
+  font-family: 'roboto'sans-serif;
+  font-size: 1.0em;
+  background-color: #E8E8E8;
+  color: #01163F;
+  text-align: center;
+}
+
+.bib2018{
+  display: block;
+  padding: 10px;
+  align-items: center;
+  margin: 30px;
+  font-family: 'roboto'sans-serif;
+  font-size: 1.0em;
+  background-color: #E8E8E8;
+  color: #01163F;
+  text-align: center;
+}
+
+.bibprevious{
+  display: block;
+  padding: 10px;
+  align-items: center;
+  margin: 30px;
+  font-family: 'roboto'sans-serif;
+  font-size: 1.0em;
+  background-color: #E8E8E8;
+  color: #01163F;
+  text-align: center;
+}
