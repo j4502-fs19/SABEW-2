@@ -680,6 +680,7 @@ line-height: 1.3em;
 
     nav ul li {
         border-top: none;
+        display: inline-block;
     }
 
     .menu-trigger {
